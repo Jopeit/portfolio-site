@@ -1,7 +1,5 @@
 # Total features
-
 - Every block-type object has border-radius:6px
-- Contact buttons on hover swap their color to a bit dark version
 - Another buttons on hover swap color to #A682FF
 
 # Background
@@ -17,3 +15,7 @@
 
 # Project-card
 - Photo / text proportion is 40:60
+
+# Contact buttons
+- Favicon instead text
+- Contact buttons on hover swap their color to a bit dark version

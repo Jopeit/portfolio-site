@@ -1,0 +1,177 @@
+
+/* Body & container*/
+
+* {
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+body {
+    background: linear-gradient(rgba(18,14,41,0.85), rgba(18,14,41,0.85)), url(portfolio-background.png) center/cover no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    
+}
+.container{
+    margin: 5%;
+    display: flex;
+    background-color: #120E29;
+    box-shadow: 0 0 10px black;
+    min-height: 75vh;
+}
+
+/* Body & container */
+
+/* Sidebar */
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #241e3e 0%, #2e2452 100%);
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    width: 20%;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+nav{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+nav button{
+    font-size: medium;
+    
+}
+
+.sec-btn{
+    height: 30px;
+    background: none;      
+    border: none;          
+    padding: 10px;            
+    color: white;         
+    cursor: pointer;
+    display: block;
+    text-align: left; 
+    transition: 0.2s ease;
+}
+.sec-btn:hover{
+    background:#A682FF;
+    color: black;
+}
+
+.contact{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.con-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    transition: 0.2s ease;
+}
+
+.con-btn img{
+    max-height: 4vh;
+}
+
+.contact #github{
+    background-color: rgb(160, 17, 185);
+}
+.contact #telegram{
+    background-color: rgb(48, 164, 236);
+}
+.contact #phone{
+    background-color: rgb(20, 202, 20);
+}
+
+.con-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.contact #github:hover{
+    background-color: rgb(138, 16, 160);
+}
+.contact #telegram:hover{
+    background-color: rgb(34, 112, 161);
+}
+.contact #phone:hover{
+    background-color: rgb(18, 167, 18);
+}
+/* Sidebar */
+
+/* Maincontent */
+
+.main-content{
+    background-color: #111525;
+    flex: 1;
+    padding: 40px;
+    border-radius: 6px;
+    overflow: auto;
+    max-height: 90vh;
+}
+.hidden{
+    display: none;
+}
+
+
+/* Maincontent */
+
+/* Homepanel */
+
+.top-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+.top-grid-card{
+    background: linear-gradient(180deg, #241e3e 0%, #2e2452 100%);
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.top-grid-card p {
+    margin: 2%;
+}
+
+.cv-btn{
+    font-size: 25px;
+    background: none;      
+    border: none;          
+    padding: 10px;            
+    color: white;         
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.bottom-row{
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.bottom-grid-card{
+    background: #2e2452;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease;
+}
+
+.top-grid-card:hover , .bottom-grid-card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+/* Homepanel */

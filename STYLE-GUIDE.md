@@ -7,7 +7,7 @@
 
 # Coloristic
 - #03254E ~background for container
-- #715AFF ~color for blocks
+- #024495 ~color for blocks
 - #A682FF ~buttons hover swap-color
 
 #  Font-style

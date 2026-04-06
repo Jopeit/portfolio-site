@@ -42,7 +42,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('home-darkbg.png') center/cover no-repeat;
+    background: url('./assets/home-darkbg.png') center/cover no-repeat;
     z-index: 0;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
     -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
@@ -170,6 +170,33 @@ body {
 #projects{
     text-align: center;
     overflow: hidden;
+    min-height: 50vh;
+    padding: 10px;
 }
+
+
+.projects-grid{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    width:45vh;
+    height: 50vh;
+    border-radius: 12px;
+    background-color:rgba(15, 15, 15);
+    transition: 0.2s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-3px);
+    box-shadow: #fff;
+}
+
 
 /* Projects */
